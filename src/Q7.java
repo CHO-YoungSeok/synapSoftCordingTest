@@ -28,6 +28,7 @@ public class Q7 {
                 continue;
             }
 
+            // S, W, Y는 0일 수 없다.
             if ((currentLetter == 'S' || currentLetter == 'W' || currentLetter == 'Y') && digit == 0) {
                 continue;
             }
